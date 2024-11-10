@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    tools:context=".Activies.ChatActivity">
+
+    <include layout="@layout/chatactionbar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        tools:listitem="@layout/recive_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:weightSum="100"
+        android:id="@+id/chatlinearlayout"
+        android:orientation="horizontal"
+        android:background="#7C000000"
+        >
+        <EditText
+            android:id="@+id/messageTextBox"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:ems="10"
+            android:hint="Type your message"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sendimgbtn"
+            android:background="@color/white"
+            android:src="@drawable/sentpng"/>
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

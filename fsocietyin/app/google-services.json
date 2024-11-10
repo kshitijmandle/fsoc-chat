@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537516859352",
+    "project_id": "fchat-e10d0",
+    "storage_bucket": "fchat-e10d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537516859352:android:2c3c341abae53f38d35cad",
+        "android_client_info": {
+          "package_name": "com.fsociety.fsocietyin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537516859352-b1js9ib1cl47539hfh2fjpprfiqn365b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZ60ssT1f-c8NHq-q0_pB7oAeZV7Flh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537516859352-b1js9ib1cl47539hfh2fjpprfiqn365b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

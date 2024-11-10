@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BC050505"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:background="#F0000000"
+
+
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fsociety"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/userchatimage"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Elliot elderson"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/userchatname"
+            android:gravity="center"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:maxLines="1"
+            android:text="No msg : Tap to chat"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/userchatdate"
+            android:textColor="#F4511E"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
